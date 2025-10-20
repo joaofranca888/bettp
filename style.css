@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #4CAF50; /* Verde Pet */
+    color: white;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+main, #result-area {
+    background-color: white;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 90%;
+}
+
+.question-block {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.question-block h3 {
+    margin-top: 0;
+    color: #38761d; /* Verde Escuro */
+}
+
+label {
+    display: block;
+    padding: 8px 0;
+    cursor: pointer;
+}
+
+label:hover {
+    background-color: #e6ffe6;
+}
+
+button {
+    background-color: #FF9800; /* Laranja de Destaque */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e68900;
+}
+
+/* Estilo da Área de Resultado */
+.hidden {
+    display: none;
+}
+
+#pet-result {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#pet-result h3 {
+    color: #FF9800;
+    font-size: 1.8em;
+}
+
+#pet-result img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}

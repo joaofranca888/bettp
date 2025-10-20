@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual Pet é a Sua Alma Gêmea?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Descubra Seu Pet Gêmeo de Personalidade</h1>
+        <p>Responda às 5 perguntas abaixo e encontre seu parceiro animal ideal!</p>
+    </header>
+
+    <main id="quiz-container">
+        <form id="personality-quiz">
+
+            <div class="question-block">
+                <h3>1. Como você prefere passar a maior parte do seu tempo livre?</h3>
+                <label><input type="radio" name="q1" value="energia_alta"> Praticando esportes ou atividades ao ar livre.</label><br>
+                <label><input type="radio" name="q1" value="energia_media"> Encontrando amigos ou visitando lugares.</label><br>
+                <label><input type="radio" name="q1" value="energia_baixa"> Lendo um livro ou assistindo a um filme em casa.</label>
+            </div>
+
+            <div class="question-block">
+                <h3>2. Qual seu estilo em festas ou grandes reuniões?</h3>
+                <label><input type="radio" name="q2" value="sociavel_muito"> O centro das atenções, conversando com todos.</label><br>
+                <label><input type="radio" name="q2" value="sociavel_pouco"> Fico no meu canto, observando e interagindo com poucos.</label><br>
+                <label><input type="radio" name="q2" value="sociavel_medio"> Gosto de interagir, mas também aprecio um tempo sozinho.</label>
+            </div>
+
+            <div class="question-block">
+                <h3>3. Quanta atenção ou feedback você busca das pessoas?</h3>
+                <label><input type="radio" name="q3" value="atencao_alta"> Bastante! Gosto de ser notado e receber carinho.</label><br>
+                <label><input type="radio" name="q3" value="atencao_baixa"> Pouca. Sou independente e não preciso de validação constante.</label>
+            </div>
+            
+            <div class="question-block">
+                <h3>4. Qual palavra melhor descreve seu estilo de vida?</h3>
+                <label><input type="radio" name="q4" value="vida_movimentada"> Movimentado e cheio de compromissos.</label><br>
+                <label><input type="radio" name="q4" value="vida_calma"> Calmo, rotineiro e previsível.</label>
+            </div>
+            
+            <div class="question-block">
+                <h3>5. Como você lida com novos desafios ou aprendizados?</h3>
+                <label><input type="radio" name="q5" value="curioso_sim"> Mergulho de cabeça e busco entender todos os detalhes.</label><br>
+                <label><input type="radio" name="q5" value="curioso_nao"> Prefiro coisas que já domino e evito grandes mudanças.</label>
+            </div>
+
+            <button type="submit">Descobrir Meu Pet!</button>
+
+        </form>
+    </main>
+    
+    <section id="result-area" class="hidden">
+        <h2>Seu Pet Gêmeo é...</h2>
+        <div id="pet-result">
+            </div>
+        <button onclick="window.location.reload()">Fazer o Quiz Novamente</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pet Matcher</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
